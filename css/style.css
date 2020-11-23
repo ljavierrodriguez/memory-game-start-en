@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    padding-top: 20px;
+    color: white;
+}
+
+.init {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../img/bg/fondo_front.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.init button{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: rgb(17, 113, 177);
+    border: 0;
+    margin-bottom: 40px;
+}
+
+.game {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    display: none;
+    background-image: url(../img/bg/fondo.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.game .card {
+    width: 120px;
+    height: 120px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: #ffffff33;
+}
+
+.game .card img {
+    width: 120px;
+    height: 120px;
+    display: none;
+}
+
+.game .active img {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.scores {
+    width: 500px;
+    height: 40px;
+    margin: 20px auto;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.scores .score {
+    padding: 10px;
+}
+
+.scores .score .score-label {
+    color: black;
+    font-weight: bold;
+}
+
+.scores .score .score-points {
+    color: red;
+    font-weight: bold;
+}
