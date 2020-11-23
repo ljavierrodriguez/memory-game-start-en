@@ -1,25 +1,25 @@
-# Aprende Javascript Jugando
+# Learn Javascript by Playing
 
 
-### Tópicos que estaremos hablando y aprenderas en este curso.
+### Main Agenda.
 
- - Qué es Javascript
- - Variables (let, const, var)
- - Condicionles (if, else)
- - Ciclos (loops)
- - Funciones (functions)
- - DOM (Document Object Model)
- - Eventos (events)
+- What is Javascript
+- Variables (let, const, var)
+- Conditionals (if, else)
+- Loops(for, while, etc.)
+- Functions
+- DOM (Document Object Model)
+- Events and Listeners
 
-### Pantalla Inicial de Nuestro Juego
+### Initial Screen of Our Game
 
 ![drawing](./game.png)
 
-### Pantalla de juego donde mostraremos nuestras Imagenes
+### Game screen where we will show our Images
 
 ![drawing](./game-table.png)
 
-### Imagenes que estaremos usando en nuestro juego
+### Images that we will be using in our game
 
 
 | Rigoberto     |      Ada      | Laptop        | JavaScript     |
